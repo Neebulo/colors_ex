@@ -22,7 +22,7 @@ $("#yellow").on("click", function() {
 }
 
 yellow();
-///////////////////   YELLOW CLICKER   ///////////////////
+///////////////////   GREEN CLICKER   ///////////////////
 function green(){
 $("#green").on("click", function() {
     $("#4").toggleClass("green");
