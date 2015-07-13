@@ -30,3 +30,11 @@ $("#green").on("click", function() {
 }
 
 green();
+///////////////////   BLUE CLICKER   ///////////////////
+function blue(){
+$("#blue").on("click", function() {
+    $("#5").toggleClass("blue");
+});
+}
+
+blue();
