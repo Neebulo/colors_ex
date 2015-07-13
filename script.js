@@ -1,4 +1,4 @@
-//////////   RED CLICKER  /////////////////////////////////
+////////////////////   RED CLICKER  ////////////////////////
 function red(){
 $("#red").on("click", function() {
     $("#1").toggleClass("red");
@@ -14,3 +14,19 @@ $("#orange").on("click", function() {
 }
 
 orange();
+///////////////////   YELLOW CLICKER   ///////////////////
+function yellow(){
+$("#yellow").on("click", function() {
+    $("#3").toggleClass("yellow");
+});
+}
+
+yellow();
+///////////////////   YELLOW CLICKER   ///////////////////
+function green(){
+$("#green").on("click", function() {
+    $("#4").toggleClass("green");
+});
+}
+
+green();
